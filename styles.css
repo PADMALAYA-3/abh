@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+h1 {
+  font-size: 40px;
+  color: azure;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: gray;
+  position: relative;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
